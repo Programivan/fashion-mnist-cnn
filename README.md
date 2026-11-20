@@ -94,6 +94,11 @@
 pip install -r requirements.txt
 ```
 
+> **Примітка для користувачів Linux:** Якщо у вас виникає помилка встановлення пакетів (наприклад, `externally-managed-environment`), використовуйте команду з прапорцем:
+> ```bash
+> pip install -r requirements.txt --break-system-packages
+> ```
+
 ### Запуск тренування головної моделі та генерація графіків завдання:
 ```bash
 python3 train.py
